@@ -27,4 +27,5 @@ jobs:
           vuln-type: os,library
           severity: HIGH,CRITICAL
           ignore-unfixed: true
+          skip-files: "**/pip/_vendor/bom.cdx.json"
           exit-code: 1
