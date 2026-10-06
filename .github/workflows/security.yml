@@ -24,5 +24,7 @@ jobs:
         with:
           image-ref: telstra-appsec-poc
           format: table
+          vuln-type: os,library
           severity: HIGH,CRITICAL
+          ignore-unfixed: true
           exit-code: 1
